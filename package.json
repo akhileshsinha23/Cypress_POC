@@ -1,0 +1,15 @@
+{
+  "name": "circleci_cypress_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/.bin/cypress run -spec 'cypress/integration/SFRA/*'"
+  },
+  "author": "",
+  "license": "ISC"
+}
